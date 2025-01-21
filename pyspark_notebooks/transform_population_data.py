@@ -87,4 +87,6 @@ df_processed_population.write.format("com.databricks.spark.csv").option("header"
 
 # COMMAND ----------
 
+display(df_processed_population.show())
+# COMMAND
 
